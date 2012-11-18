@@ -1,0 +1,56 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/pager"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".StartupActivity" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="155dp"
+        android:text="Welcome to University Recommender System"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <Button
+        android:id="@+id/startup_signIn"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="240dp"
+        android:layout_marginLeft="60dp"
+        android:text="Sign In" />
+
+    <Button
+        android:id="@+id/startup_aboutUs"
+		android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/startup_newUser"
+        android:layout_alignBottom="@+id/startup_newUser"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="63dp"
+        android:text="About Us" />
+
+    <Button
+        android:id="@+id/startup_newUser"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/startup_signIn"
+        android:layout_alignBottom="@+id/startup_signIn"
+        android:layout_centerHorizontal="true"
+        android:text="Sign Up" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView1"
+        android:layout_below="@+id/textView1"
+        android:layout_marginTop="137dp"
+        android:text="Please select one of the three options to begin"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+    </RelativeLayout>
